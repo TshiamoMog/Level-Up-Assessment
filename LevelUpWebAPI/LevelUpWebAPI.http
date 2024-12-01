@@ -1,0 +1,6 @@
+@LevelUpWebAPI_HostAddress = http://localhost:5285
+
+GET {{LevelUpWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
