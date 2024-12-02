@@ -1,0 +1,149 @@
+:root {
+  --black: #080808;
+  --white: #E3F0D3;
+  --red: #ED2224;
+  --blue: #31ADE3;
+  --green: #71C389;
+  --orange: #F1A51F;
+}
+
+.orbitron-regular {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron-bold {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.micro-5 {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--black);
+}
+
+section{
+  padding: 5rem 3rem;
+}
+
+.section{
+  padding: 0 3rem;
+}
+
+p{
+  display: inline-block;
+  color:#E3F0D3;
+  font-size: 4rem;
+  margin-right: 3rem;
+}
+
+.banner{
+  display: inline-block;
+  margin-bottom: 2.3rem;
+}
+
+.line{
+  display: inline-block;
+  height: 0.5rem;
+}
+
+.l1{
+  background-color: #31ADE3;
+}
+.l2{
+  background-color: #71C389;
+}
+.l3{
+  background-color: #F1A51F;
+}
+.l4{
+  background-color: #ED2224;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: #E3F0D3;
+}
+
+h6{
+  display: inline-block;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  margin-left: 0;
+  width: 100%;
+  gap: 5rem;
+}
+.form-column {
+  flex: 1;
+  min-width: 200px;
+}
+.form-column label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 3rem;
+  font-weight: bold;
+  color:#F1A51F;
+  display: block;
+}
+.form-column input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color:#080808;
+  border-bottom: solid 1px #E3F0D3;
+}
+
+.form-column .button{
+  color:#E3F0D3;
+  background-color: #ED2224;
+  width: auto;
+  border-radius: 3rem;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  font-size: 1.8rem;
+}
+
+.btnImg {
+  display: inline-block;
+  width: 4rem;
+}
+
+table .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+table .button{
+  cursor: pointer;
+  background-color: #080808;
+  display: inline;
+  border-radius: 3rem;
+  margin-right: 1rem;
+}
+
+.viewbtn{
+  border: solid 3px #F1A51F;
+}
+
+.updbtn{
+  border: solid 3px #71C389;
+}
+
+.delbtn{
+  border: solid 3px #ED2224;
+}
